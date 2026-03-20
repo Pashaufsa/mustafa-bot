@@ -1,1 +1,1 @@
-worker: python "Mustafa bot.py"
+worker: python mustafa_bot.py
