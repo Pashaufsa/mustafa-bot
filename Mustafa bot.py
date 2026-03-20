@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import CommandStart
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-# ✅ Вставь сюда свой токен от @BotFather
-BOT_TOKEN = "8742884938:AAGKgAc1xzmoJKzIsHtFt2G9V6xRged8iEI"
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8742884938:AAGKgAc1xzmoJKzIsHtFt2G9V6xRged8iEI")
 
 logging.basicConfig(level=logging.WARNING)
 
