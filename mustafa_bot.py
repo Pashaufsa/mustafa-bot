@@ -1,10 +1,10 @@
+import os
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import CommandStart
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-import os
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8742884938:AAGKgAc1xzmoJKzIsHtFt2G9V6xRged8iEI")
 
 logging.basicConfig(level=logging.WARNING)
